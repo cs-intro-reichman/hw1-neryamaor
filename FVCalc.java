@@ -1,7 +1,7 @@
 // Computes the future value of a saving investment.
 public class FVCalc {
 	public static void main(String[] args){
-		double InitialAmount = Double.parseDouble(args[0]);
+		int InitialAmount = Integer.parseInt(args[0]);
 		double InputRate = Double.parseDouble(args[1]);
 		double Rate = InputRate / 100;
 		int Years = Integer.parseInt(args[2]);
